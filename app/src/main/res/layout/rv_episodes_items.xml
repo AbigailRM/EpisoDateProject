@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/background2"
+    android:backgroundTint="@color/black">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:background="@color/other_letter">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/layout_season"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/btn_letter">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/et_season"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="2dp"
+                        android:background="@color/transparent"
+                        android:focusable="false"
+                        android:hint="Season"
+                        android:textColor="@color/btn_letter"
+                        android:textSize="15sp" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/layout_episode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/btn_letter">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_episode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:background="@color/transparent"
+                    android:focusable="false"
+                    android:hint="Episode"
+                    android:textColor="@color/btn_letter"
+                    android:textSize="15sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/layout_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/btn_letter">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:background="@color/transparent"
+                    android:focusable="false"
+                    android:hint="Name"
+                    android:textColor="@color/btn_letter"
+                    android:textSize="15sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/layout_air_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/btn_letter">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_air_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:background="@color/transparent"
+                    android:focusable="false"
+                    android:hint="Air Date"
+                    android:textColor="@color/btn_letter"
+                    android:textSize="15sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
